@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name         = 'ReachabilitySwift'
-  s.version      = '5.0.0'
+  s.name         = 'TTReachabilitySwift'
+  s.version      = '5.1.0'
   s.module_name = 'Reachability'
-  s.homepage     = 'https://github.com/ashleymills/Reachability.swift'
+  s.homepage     = 'https://github.com/iWenterHuang/Reachability.swift'
   s.authors      = {
-    'Ashley Mills' => 'ashleymills@mac.com'
+    'iWenter' => 'iwenter@163.com'
   }
   s.summary      = 'Replacement for Apple\'s Reachability re-written in Swift with callbacks.'
   s.license      = { :type => 'MIT' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target  = "9.0"
   s.source       =  {
-    :git => 'https://github.com/ashleymills/Reachability.swift.git',
+    :git => 'https://github.com/iWenterHuang/Reachability.swift',
     :tag => 'v'+s.version.to_s
   }
   s.source_files = 'Sources/Reachability.swift'
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.ios.framework    = 'CoreTelephony'
 
   s.requires_arc = true
-  s.swift_version = '5.0'
+  s.swift_version = '4.2'
 end
